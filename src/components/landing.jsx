@@ -9,8 +9,6 @@ class Landing extends Component {
             <div id="carousel-slider" className="carousel slide" data-ride="carousel">
               <ol className="carousel-indicators visible-xs">
                 <li data-target="#carousel-slider" data-slide-to="0" className="active"></li>
-                <li data-target="#carousel-slider" data-slide-to="1"></li>
-                <li data-target="#carousel-slider" data-slide-to="2"></li>
               </ol>
             </div>
             <div className="carousel-inner">
@@ -28,10 +26,10 @@ class Landing extends Component {
                   <div className="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
                     <form className="form-inline">
                       <div className="form-group">
-                        <button type="livedemo" name="Live Demo" className="btn btn-primary btn-lg" required="required">Get Motivated</button>
+                        <a href="#section-motivation" id="get-motivated" className="btn btn-primary btn-lg">Get Motivated</a>
                       </div>
                       <div className="form-group">
-                        <button type="getnow" name="Get Now" className="btn btn-primary btn-lg" required="required">Contact Me</button>
+                        <a href="#section-contact" id="contact-me" className="btn btn-primary btn-lg">Get More Info</a>
                       </div>
                     </form>
                   </div>

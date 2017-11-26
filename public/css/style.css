@@ -910,7 +910,7 @@ section.featured h2.slogan {
     }
 }
 
-.carousel-inner .form-inline .form-group button[type="livedemo"]{
+.carousel-inner .form-inline .form-group #get-motivated{
 	padding:20px 60px;
 	font-size:20px;
 	background:#22B8F8;
@@ -920,7 +920,7 @@ section.featured h2.slogan {
 	text-transform:uppercase;
 }
 
-.carousel-inner .form-inline .form-group button[type="livedemo"]:hover {
+.carousel-inner .form-inline .form-group #get-motivated:hover {
 	color:#fff;
 	opacity: 0.8;
 	-webkit-transition: color 300ms, background-color 300ms;
@@ -929,7 +929,7 @@ section.featured h2.slogan {
   transition:  color 300ms, background-color 300ms;
 }
 
-.carousel-inner .form-inline .form-group button[type="getnow"]{
+.carousel-inner .form-inline .form-group #contact-me{
 	padding:20px 60px;
 	font-size:20px;
 	background:#fff;
@@ -938,7 +938,7 @@ section.featured h2.slogan {
 	text-transform:uppercase;
 }
 
-.carousel-inner .form-inline .form-group button[type="getnow"]:hover {
+.carousel-inner .form-inline .form-group #contact-me:hover {
 	color:#fff;
 	border-color:#fff;
 	background:#22B8F8;
