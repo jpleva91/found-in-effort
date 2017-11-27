@@ -474,13 +474,15 @@ padding-top: 30px;
 	background-image: url(../img/1.jpg);
 	height:500px;
 }
-#testimonials-3{	
-	background-image: url(../img/12.jpg);
-	height:500px;
+#section-motivation{	
+	background-image: url(../img/MODweights.png);
+	height:480px;
 }
-#testimonials-2{	
-	background-image: url(../img/6.jpg);
-	height:500px;
+#section-mentors {
+	background-color: #1D1E20;
+}
+#section-fitness {
+	background-color: #FDFFFC;
 }
 
 /*===========================
@@ -910,7 +912,7 @@ section.featured h2.slogan {
     }
 }
 
-.carousel-inner .form-inline .form-group button[type="livedemo"]{
+.carousel-inner .form-inline .form-group #get-motivated{
 	padding:20px 60px;
 	font-size:20px;
 	background:#22B8F8;
@@ -920,7 +922,7 @@ section.featured h2.slogan {
 	text-transform:uppercase;
 }
 
-.carousel-inner .form-inline .form-group button[type="livedemo"]:hover {
+.carousel-inner .form-inline .form-group #get-motivated:hover {
 	color:#fff;
 	opacity: 0.8;
 	-webkit-transition: color 300ms, background-color 300ms;
@@ -929,7 +931,7 @@ section.featured h2.slogan {
   transition:  color 300ms, background-color 300ms;
 }
 
-.carousel-inner .form-inline .form-group button[type="getnow"]{
+.carousel-inner .form-inline .form-group #contact-me{
 	padding:20px 60px;
 	font-size:20px;
 	background:#fff;
@@ -938,7 +940,7 @@ section.featured h2.slogan {
 	text-transform:uppercase;
 }
 
-.carousel-inner .form-inline .form-group button[type="getnow"]:hover {
+.carousel-inner .form-inline .form-group #contact-me:hover {
 	color:#fff;
 	border-color:#fff;
 	background:#22B8F8;
@@ -1052,7 +1054,7 @@ section.featured.inner {
 }
   /*id*/
 #header img {
-height: 600px;
+	height: 42px;;
 }
 #section-services {
 background-color: #fff;
@@ -1062,10 +1064,34 @@ background-color: #fff;
 background-color: #fff;
 height: 650px;
 }
-#section-about {
-background-color: #fff;
+#section-mission {
+background-color: #FDFFFC;
 height: auto;
 }
+#section-bio {
+background-color: #1D1E20;
+height: auto;
+}
+
+#ship {
+	height: 360px;
+	width: auto;
+}
+
+#bio-pic {
+	border-radius: 5px;
+}
+
+#mission-text {
+	top: 60px;
+	position: relative;
+	font-size: 28px;
+}
+
+#bio-text {
+	font-size: 24px;
+}
+
 .about{
 padding:0 20px 80px;
 }
