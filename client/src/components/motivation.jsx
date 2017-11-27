@@ -10,9 +10,13 @@ class Motivation extends Component {
               <div class="col-lg-12">
                 <div class="align-center">
                   <div class="testimonial pad-top40 pad-bot40 clearfix">
-                    <h5>
-                    “Every hour focus your mind attentively on the performance of the task in hand, with dignity, human sympathy, benevolence and freedom, and leave aside all other thoughts. You will achieve this, if you perform each action as if it were your last.”
-                    </h5>
+                    $.ajax({
+                      type: 'get',
+                      url: '/api'
+                    })
+                    .done(function(data) {
+                      console.log(data);
+                    });
                     <br/>
                     <span class="author">&mdash; Marcus Aurelius</span>
                   </div>
