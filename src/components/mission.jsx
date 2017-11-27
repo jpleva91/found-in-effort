@@ -38,7 +38,7 @@ class Mission extends Component {
 
                 <div className="col-lg-6 ">
                   <div className="company mar-left10">
-                    <p id="mission-text">If you went through your life full of pain, full of tears, and at the end of your life you actually saved somebody's life, is your life worth living? Is the pain worth someone's if you could save somebody?</p>
+                    <p id="mission-text">If you went through your life full of pain, full of tears, and at the end of your life you actually saved somebody's life, is your life worth living? Is the pain worth someone's life if you could save somebody?</p>
                   </div>
                 </div>
 
