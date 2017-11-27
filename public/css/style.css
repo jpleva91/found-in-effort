@@ -474,9 +474,9 @@ padding-top: 30px;
 	background-image: url(../img/1.jpg);
 	height:500px;
 }
-#testimonials-3{	
-	background-image: url(../img/12.jpg);
-	height:500px;
+#section-motivation{	
+	background-image: url(../img/MODweights.png);
+	height:480px;
 }
 #testimonials-2{	
 	background-image: url(../img/6.jpg);
@@ -1052,7 +1052,7 @@ section.featured.inner {
 }
   /*id*/
 #header img {
-height: 600px;
+	height: 42px;;
 }
 #section-services {
 background-color: #fff;
@@ -1062,10 +1062,34 @@ background-color: #fff;
 background-color: #fff;
 height: 650px;
 }
-#section-about {
-background-color: #fff;
+#section-mission {
+background-color: #FDFFFC;
 height: auto;
 }
+#section-bio {
+background-color: #1D1E20;
+height: auto;
+}
+
+#ship {
+	height: 360px;
+	width: auto;
+}
+
+#bio-pic {
+	border-radius: 5px;
+}
+
+#mission-text {
+	top: 60px;
+	position: relative;
+	font-size: 28px;
+}
+
+#bio-text {
+	font-size: 24px;
+}
+
 .about{
 padding:0 20px 80px;
 }
