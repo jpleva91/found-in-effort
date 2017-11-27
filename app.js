@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 // Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'client/build/')));
+app.use(express.static(path.join(__dirname, 'client/build/static')));
 
 app.use('/', index);
 // 
