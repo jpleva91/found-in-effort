@@ -478,9 +478,11 @@ padding-top: 30px;
 	background-image: url(../img/MODweights.png);
 	height:480px;
 }
-#testimonials-2{	
-	background-image: url(../img/6.jpg);
-	height:500px;
+#section-mentors {
+	background-color: #1D1E20;
+}
+#section-fitness {
+	background-color: #FDFFFC;
 }
 
 /*===========================
