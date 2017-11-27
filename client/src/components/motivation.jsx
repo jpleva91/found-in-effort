@@ -10,13 +10,6 @@ class Motivation extends Component {
               <div class="col-lg-12">
                 <div class="align-center">
                   <div class="testimonial pad-top40 pad-bot40 clearfix">
-                    $.ajax({
-                      type: 'get',
-                      url: '/api'
-                    })
-                    .done(function(data) {
-                      console.log(data);
-                    });
                     <br/>
                     <span class="author">&mdash; Marcus Aurelius</span>
                   </div>
