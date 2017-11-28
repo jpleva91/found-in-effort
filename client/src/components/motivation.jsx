@@ -5,7 +5,6 @@ class Motivation extends Component {
   constructor(){
     super()
     this.state = {
-      daily_motivations: []
     }
   }
   componentDidMount(){
@@ -14,9 +13,10 @@ class Motivation extends Component {
   fetchData(){
     Index.all().then( (res) => {
       this.setState ({
-        daily_motivations: res
+        quote: res[0].quote,
+        author: res[0].author
       })
-      console.log('response:',res)
+      console.log(this.state)
     })
   }
   render(){
@@ -28,8 +28,9 @@ class Motivation extends Component {
               <div class="col-lg-12">
                 <div class="align-center">
                   <div class="testimonial pad-top40 pad-bot40 clearfix">
+                    <h5>{this.state.quote}</h5>
                     <br/>
-                    <span class="author">&mdash; Marcus Aurelius</span>
+                    <span class="author">&mdash; {this.state.author}</span>
                   </div>
                 </div>
               </div>
