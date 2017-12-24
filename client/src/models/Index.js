@@ -6,6 +6,7 @@ class Index {
       url: "https://foundineffortadmin.herokuapp.com/api/motivations",
       method: 'GET',
       crossDomain: true,
+      dataType: 'json',
     });
     return request;
   }

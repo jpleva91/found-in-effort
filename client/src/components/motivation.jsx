@@ -13,7 +13,7 @@ class Motivation extends Component {
   fetchData(){
     Index.all().then( (res) => {
       console.log(res);
-    })
+    });
   }
   render(){
     return (
