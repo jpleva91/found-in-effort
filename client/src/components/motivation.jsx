@@ -12,7 +12,16 @@ class Motivation extends Component {
   }
   fetchData(){
     Index.all().then( (res) => {
-      console.log(res);
+      const response = res.reverse();
+      console.log(response);
+      console.log(response.data);
+      console.log(res.data);
+      // console.log(res.data.content);
+      // console.log(res[0].data.author);
+      this.setState ({
+        content: '',
+        author: ''
+      });
     });
   }
   render(){
@@ -24,9 +33,9 @@ class Motivation extends Component {
               <div class="col-lg-12">
                 <div class="align-center">
                   <div class="testimonial pad-top40 pad-bot40 clearfix">
-                    <h5>quote</h5>
-                    <br/>
-                    <span class="author">&mdash; author</span>
+                  <h5>{this.state.content}</h5>
+                  <br/>
+                  <span class="author">&mdash; {this.state.author}</span>
                   </div>
                 </div>
               </div>
