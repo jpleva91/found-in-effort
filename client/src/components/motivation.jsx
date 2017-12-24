@@ -28,7 +28,7 @@ class Motivation extends Component {
               <div class="col-lg-12">
                 <div class="align-center">
                   <div class="testimonial pad-top40 pad-bot40 clearfix">
-                  <h5>{this.state.content}</h5>
+                  <h5>"{this.state.content}"</h5>
                   <br/>
                   <span class="author">&mdash; {this.state.author}</span>
                   </div>
