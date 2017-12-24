@@ -3,7 +3,7 @@ import $ from 'jquery';
 class Index {
   static all(){
     let request = $.ajax({
-      url: "https://pure-bastion-10383.herokuapp.com/daily_motivations",
+      url: "http://foundineffortadmin.herokuapp.com/api/motivations",
       method: 'GET'
     });
     return request;

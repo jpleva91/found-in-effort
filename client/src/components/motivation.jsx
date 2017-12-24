@@ -12,11 +12,7 @@ class Motivation extends Component {
   }
   fetchData(){
     Index.all().then( (res) => {
-      this.setState ({
-        quote: res[0].quote,
-        author: res[0].author
-      })
-      console.log(this.state)
+      console.log(res);
     })
   }
   render(){
@@ -28,9 +24,9 @@ class Motivation extends Component {
               <div class="col-lg-12">
                 <div class="align-center">
                   <div class="testimonial pad-top40 pad-bot40 clearfix">
-                    <h5>{this.state.quote}</h5>
+                    <h5>quote</h5>
                     <br/>
-                    <span class="author">&mdash; {this.state.author}</span>
+                    <span class="author">&mdash; author</span>
                   </div>
                 </div>
               </div>
