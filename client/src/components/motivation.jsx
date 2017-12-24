@@ -13,11 +13,9 @@ class Motivation extends Component {
   fetchData(){
     Index.all().then( (res) => {
       const data = res.data.reverse();
-      console.log("DATA:",data);
-      console.log("RES:",res.data);
       this.setState ({
-        content: '',
-        author: ''
+        content: data[0].content,
+        author: data[0].author
       });
     });
   }
