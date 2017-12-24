@@ -4,7 +4,9 @@ class Index {
   static all(){
     let request = $.ajax({
       url: "https://foundineffortadmin.herokuapp.com/api/motivations",
-      method: 'GET'
+      method: 'GET',
+      crossDomain: true,
+      dataType: 'jsonp',
     });
     return request;
   }
